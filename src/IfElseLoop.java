@@ -394,6 +394,8 @@ public class IfElseLoop {
         int fourthDigit = (int) ((lastFourDigits - lastThreeDigits) / 1000);
         int fifthDigit = (int) ((lastFiveDigits - lastFourDigits) / 10000);
         int sixthDigit = (int) ((lastSixDigits - lastFiveDigits) / 100000);
+        int test = (int) ((lastSixDigits - lastFiveDigits) / 100000);
+
 
         //считаем копейки ёпта =(
 
